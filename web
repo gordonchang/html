@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gordon Chang's live space</title>
+
+    <link rel="stylesheet" href="note16.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <input type="checkbox" name="" id="menu_control">
+    <div class="header">
+        <a href="#" class="logo"><img src="cake.jpg" alt="蛋糕"></a>
+        
+        <nav>
+            <a href="#">關於本人</a>
+            <a href="#">生涯</a>
+            <a href="https://www.instagram.com/gordon_0606/">我的IG</a>
+            <a href="#">回首頁</a>
+        </nav>
+    </div>
+
+    <div class="banner">
+        <img src="learn.jpg" alt="main">
+    </div>
+    
+    <ul class="path">
+        <li><a href="#">首頁</a></li>
+        <li><a href="#">最新消息</a></li>
+    </ul>
+
+    <div class="about">
+        <div class="wrap">
+            <h2>Who is Gordon Chang</h2>
+        </div>
+
+        <p class="introduce">
+            資訊四甲 D1018627 張家郡
+        </p>
+
+        <div class="wrap">
+            <div class="item">
+                <img src="macha.jpg" alt="">
+                <h3>title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus porro, ipsam assumenda vero omnis deserunt maiores deleniti ullam aliquam rerum. Porro praesentium labore consequatur quisquam tempore impedit. Id, aliquam vitae!</p>
+            </div>
+            <div class="item">
+                <img src="macha.jpg" alt="">
+                <h3>title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus porro, ipsam assumenda vero omnis deserunt maiores deleniti ullam aliquam rerum. Porro praesentium labore consequatur quisquam tempore impedit. Id, aliquam vitae!</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="wrap">
+            <div class="item pic">
+                <img src="cat.jpg" alt="" height="300px">
+            </div>
+
+            <div class="item txt">
+                <h3>title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ad eos, fugiat magnam veritatis, totam corporis eius assumenda minima sequi sapiente officiis, tenetur dolores magni velit non dolor quos qui?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="service">
+        <h2>服務項目</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nemo laudantium in, atque nostrum facilis natus odit ullam maiores cumque doloremque. Asperiores reiciendis quibusdam ipsa iste voluptate mollitia voluptas sed!</p>
+        <div class="wrap">
+            <div class="item">
+                <img src="house.jpg" alt="" >
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quas, illum sequi nam deleniti molestias, laudantium fugit, ut non sed id debitis eum. Enim quod esse illum sapiente atque quos.</p>
+            </div>
+            <div class="item">
+                <img src="house.jpg" alt="" >
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quas, illum sequi nam deleniti molestias, laudantium fugit, ut non sed id debitis eum. Enim quod esse illum sapiente atque quos.</p>
+            </div>
+            <div class="item">
+                <img src="house.jpg" alt="" >
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quas, illum sequi nam deleniti molestias, laudantium fugit, ut non sed id debitis eum. Enim quod esse illum sapiente atque quos.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <!-- 頁尾符號 -->
+        &copy; copyright 2024 gordon Jun
+    </div>
+    
+</body>
+</html>
