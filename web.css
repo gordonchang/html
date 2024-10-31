@@ -122,13 +122,6 @@ nav a{
     font-weight:bold;
 }
 
-.about .wrap{
-    display: flex;
-    width: 80%;
-    margin: auto;
-    
-}
-
 .about .intro {
     margin-top: 20px;
     margin: 5%;
@@ -143,18 +136,12 @@ nav a{
 }
 
 
-.wrap h2{
+.about .wrap h2{
     text-align: center;
     width: 100%;
     font-size: 60px;
     padding: 10px 0;
     color: rgba(0, 153, 255, 0.959);
-}
-
-.about .item{
-    text-align: center;
-    width: 50%;
-    
 }
 
 .about .item p{
@@ -181,9 +168,6 @@ nav a{
 
 
 .history{
-    /* background-color: pink; */
-    width: 95%;
-    height: auto;
     padding: 2%;
     margin-bottom: 5%;
 }
@@ -191,13 +175,6 @@ nav a{
 .history h3{
     margin-bottom: 4%;
     font-weight:bold;
-}
-.history .wrap{
-    display: flex;
-}
-
-.history .item{
-    width: 50%;
 }
 
 .history img{
@@ -214,7 +191,6 @@ nav a{
 }
 
 .history .txt{
-    padding: 0px 20px;
     text-align: center;
     flex-direction: column;
     display: flex;
@@ -235,19 +211,12 @@ nav a{
     font-weight:bold;
 }
 
-.history2 .wrap{
-    display: flex;
-}
-
-.history2 .item{
-    width: 50%;
-}
-
 .history2 img{
     width: 50%;
     height: auto;
     border-radius: 10%;
     margin-left: 30%;
+    margin-bottom: 20px;
 }
 
 .history2 .item p{
@@ -303,17 +272,6 @@ nav a{
     padding: 20px 0;
 }
 
-.hobby .wrap{
-    display: flex;
-}
-
-.hobby .item{
-    margin: 0 10px;
-    width: 33%;
-    text-align: center;
-    
-}
-
 .hobby .item h3{
     margin: 20px 0 0 0;
     font-size: 20px;
@@ -327,7 +285,7 @@ nav a{
 }
 
 
-/* RWD */
+/* RWD 手機端*/
 @media screen and (max-width: 767px){
     nav {
         width: 80%;
@@ -349,8 +307,50 @@ nav a{
     .logo img{
         margin: 5px 0;
     }
+
+    .about h3{
+        text-align: center;
+    }
+
+    
+    /* 圖片和文字交換位置 */
+    .about .intro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .about img{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .about .txt{
+        order: 2;
+    }
+
+    .history .intro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .history img{
+        order: 1;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .history .txt{
+        order: 2;
+    }
+
+    .hobby .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
+/* RWD 網頁端*/
 @media screen and (min-width: 768px) {
     .menu_btn {
         display: none;
@@ -380,5 +380,49 @@ nav a{
     nav a {
         border-bottom: none;
         display: inline-block;
+    }
+    .about .wrap{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        
+    }
+
+    .about .item{
+        text-align: center;
+        width: 50%;
+        
+    }
+    
+    .about .item p{
+        font-size: 18px;
+        margin: 20px;
+    }
+    
+    .history .wrap{
+        display: flex;
+    }
+    
+    .history .item{
+        width: 50%;
+    }
+
+    .history2 .wrap{
+        display: flex;
+    }
+    
+    .history2 .item{
+        width: 50%;
+    }
+
+    .hobby .wrap{
+        display: flex;
+    }
+
+    .hobby .item{
+        margin: 0 10px;
+        width: 33%;
+        text-align: center;
+        
     }
 }
